@@ -17,6 +17,7 @@ function App() {
         <br></br>
         <button className="bastaButton"><p>Unirte</p></button><br></br>
         <button className="bastaButton"><p>Crear</p></button><br></br>
+        <h2> HOLA </h2>
       </div>
     </div>
   );
