@@ -3,11 +3,17 @@ import "../App.css";
 import { useHistory } from "react-router-dom";
 
 
+
 function Sala (){
     const history = useHistory();
     function Cambiarpag(){
         history.push("/Espera");
     }
+
+    function CrearPartida(){
+      history.push("/Crear")
+    }
+    
     return (
         <div className="Contenido">
         <form>
@@ -19,8 +25,8 @@ function Sala (){
         <br></br>
        <button className="bastaButton" 
        onClick={Cambiarpag}><p>Unirse</p></button><br></br>
-        <button className="bastaButton"><p>Crear</p></button><br></br>
-        <h2> HOLA </h2>
+        <button className="bastaButton" 
+        onClick={CrearPartida}><p>Crear</p></button><br></br>
       </div>
     );
 }
