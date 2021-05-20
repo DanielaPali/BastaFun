@@ -11,7 +11,7 @@ function Espera (){
         <div className="Contenido">
             <h1>Holi</h1>
             <br></br>
-            <h1>Como estas</h1>
+            <h1>Como estas wuuu</h1>
             <Compon1/>
             </div>
     );
